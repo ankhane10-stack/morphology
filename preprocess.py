@@ -21,3 +21,7 @@ arabic_tokens = nltk.tokenize.wordpunct_tokenize(arabic_text)
 #filtered_arabic_tokens = [word for word in arabic_tokens if word not in arabic_stopwords]
 #print(filtered_arabic_tokens)
 print(arabic_tokens)
+
+arb_stopwords = set(nltk.corpus.stopwords.words('arabic'))
+print("Now printing Arabic stopwords:")
+print(arb_stopwords)
